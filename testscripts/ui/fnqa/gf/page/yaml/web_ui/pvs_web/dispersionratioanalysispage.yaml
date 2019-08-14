@@ -1,0 +1,6 @@
+DispersionRatioAnalysisPage:
+  desc: dispersionRatioAnalysis
+  locators:
+  - name: combo_box
+    type: css
+    value: '[type="text"]'

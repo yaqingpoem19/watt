@@ -1,0 +1,9 @@
+StationListPage:
+  desc: StationListPage
+  locators:
+  - name: fushistation_button
+    type: css
+    value: .listsContent div:nth-child(1) .btn
+  - name: kanghuistation_button
+    type: css
+    value: .listsContent > div:nth-of-type(2) .btn

@@ -1,0 +1,18 @@
+EnIndex:
+  desc: 用能首页
+  locators:
+  - name: yn_analyze
+    type: css
+    value: .tab_box > div:nth-of-type(1) span
+  - name: yn_optimization
+    type: css
+    value: .tab_box > div:nth-of-type(1) span
+  - name: yn_safe
+    type: xpath
+    value: .tab_box div:nth-of-type(3) span
+  - name: yn_report
+    type: css
+    value: .tab_box div:nth-of-type(4) span
+  - name: yn_productdata
+    type: css
+    value: .tab_box div:nth-of-type(5) span

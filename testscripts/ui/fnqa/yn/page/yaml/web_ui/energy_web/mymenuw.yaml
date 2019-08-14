@@ -1,0 +1,70 @@
+MyMenuW:
+  desc: 导航栏
+  locators:
+  - name: yn_analyze
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(1) .el-submenu__title [slot]'
+  - name: yesterday_energy_board
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(1) [role="menuitem"]:nth-of-type(1)
+      [slot]'
+  - name: month_energy_board
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(1) [role="menuitem"]:nth-of-type(2)
+      [slot]'
+  - name: prod_online
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(1) [role="menuitem"]:nth-of-type(3)
+      [slot]'
+  - name: yn_optimization
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(2) .el-submenu__title [slot]'
+  - name: electric_cost_optimization
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(2) [role="menuitem"]:nth-of-type(1)
+      [slot]'
+  - name: product_consumption
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(2) [role="menuitem"]:nth-of-type(3)
+      [slot]'
+  - name: yn_safe
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(3) .el-submenu__title'
+  - name: addelectric
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(2) [role="menuitem"]:nth-of-type(2)
+      [slot]'
+  - name: yn_report_page
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) .el-submenu__title [slot]'
+  - name: enterprise_electric
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) [role="menuitem"]:nth-of-type(1)
+      [slot]'
+  - name: enterprise_steam
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) [role="menuitem"]:nth-of-type(2)
+      [slot]'
+  - name: power_recall
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) [role="menuitem"]:nth-of-type(3)
+      [slot]'
+  - name: energy_plan
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) [role="menuitem"]:nth-of-type(4)
+      [slot]'
+  - name: yn_productdata
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(4) [role="menuitem"]:nth-of-type(4)
+      [slot]'
+  - name: production_data
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(5) [role="menuitem"]:nth-of-type(2)
+      [slot]'
+  - name: productdata_statistics
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(5) [role="menuitem"]:nth-of-type(3)
+      [slot]'
+  - name: power_key
+    type: css
+    value: '[role] [role="menuitem"]:nth-of-type(3) [role] [slot]'

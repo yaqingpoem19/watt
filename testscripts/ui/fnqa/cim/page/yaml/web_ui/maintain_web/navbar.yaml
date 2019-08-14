@@ -1,0 +1,9 @@
+NavBar:
+  desc: 导航栏。
+  locators:
+  - name: cim_act
+    type: xpath
+    value: "//ul[@id='side-menu']/li[2]/a[@href='#']/span[@class='nav-label']"
+  - name: act_device
+    type: css
+    value: "[data-index='2']"

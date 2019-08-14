@@ -1,0 +1,15 @@
+LoginPage:
+  desc: 光伏登录页
+  locators:
+  - name: submit_button
+    type: css
+    value: button.hln-btn-info.login-btn.submit
+  - name: passwd
+    type: css
+    value: input.pass
+  - name: check_vode
+    type: css
+    value: input.checkText
+  - name: user_name
+    type: css
+    value: input.user

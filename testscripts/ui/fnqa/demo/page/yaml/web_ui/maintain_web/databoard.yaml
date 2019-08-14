@@ -1,0 +1,15 @@
+DataBoard:
+  desc: 数据看板页面。
+  locators:
+  - name: self_station_type_arrow
+    type: css
+    value: .dataTool .fromItem:nth-of-type(1) .el-icon-arrow-up
+  - name: self_station_type
+    type: css
+    value: body .el-popper:nth-child(6) li span
+  - name: add_self_board
+    type: css
+    value: .newadd
+  - name: tab_self_data
+    type: css
+    value: .header h3:nth-of-type(2)

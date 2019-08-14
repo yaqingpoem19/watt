@@ -1,0 +1,6 @@
+AddSelfBoard:
+  desc: 新增自定义看板
+  locators:
+  - name: dialog_title
+    type: css
+    value: .dialog .el-dialog__title

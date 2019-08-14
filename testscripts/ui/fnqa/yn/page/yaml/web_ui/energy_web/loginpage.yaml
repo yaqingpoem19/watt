@@ -1,0 +1,15 @@
+LoginPage:
+  desc: 登录页面
+  locators:
+  - name: user_name
+    type: css
+    value: .user
+  - name: passwd
+    type: css
+    value: .pass
+  - name: submit_button
+    type: css
+    value: .hln-btn-info
+  - name: check_text
+    type: css
+    value: .checkText

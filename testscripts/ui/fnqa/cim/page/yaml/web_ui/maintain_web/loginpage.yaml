@@ -1,0 +1,16 @@
+LoginPage:
+  desc: 登录页。
+  locators:
+  - name: user_name
+    type: css
+    value: input[name=username]
+  - name: passwd
+    type: css
+    value: input[name=password]
+#  - name: check_text
+#    type: css
+#    value: input.checkText
+  - name: submit_button
+    type: css
+    value: button.btn.btn-success.block.full-width.m-b
+

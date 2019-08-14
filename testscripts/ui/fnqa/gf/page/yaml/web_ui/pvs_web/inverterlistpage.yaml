@@ -1,0 +1,9 @@
+InverterListPage:
+  desc: InverterListPage
+  locators:
+  - name: firstinverterdetail_botton
+    type: css
+    value: '[element-loading-background] .listBox:nth-of-type(1)'
+  - name: backtostationlist_botton
+    type: css
+    value: .btn

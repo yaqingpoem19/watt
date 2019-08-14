@@ -1,0 +1,9 @@
+NavBar:
+  desc: 导航栏。
+  locators:
+  - name: data_board
+    type: xpath
+    value: //div[@id='app']/div/div[2]/div[1]/ul[@class='navBox']/li[4]/ul//h5[.='数据看板']
+  - name: tool_arrow
+    type: css
+    value: li:nth-of-type(4) .el-icon-arrow-right

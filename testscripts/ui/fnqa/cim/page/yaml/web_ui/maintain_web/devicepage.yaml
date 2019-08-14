@@ -1,0 +1,27 @@
+DevicePage:
+  desc: 设备实例页面。
+  locators:
+  - name: iframe_device
+    type: name
+    value: 'iframe2'
+  - name: menu_tab_device
+    type: xpath
+    value: "//div[@id='page-wrapper']//nav/div/a[2]"
+  - name: park_selector
+    type: xpath
+    value: "/html//span[@id='select2-park-container']"  # //div[@id='parkBox']/span//span[@role='combobox']
+  - name: select_park05  # 中德
+    type: xpath
+    value: "//ul[@id='select2-park-results']/li[6]"
+  - name: seach_system  # 系统查询
+    type: css
+    value: "#queryGroup"
+  - name: device_code01  # 第一个设备编码
+    type: css
+    value: "[data-index='0'] > td:nth-child(1)"
+  - name: add_device
+    type: css
+    value: "#addDevice"
+  - name: add_device_name
+    type: xpath
+    value: "/html//input[@id='name']"
